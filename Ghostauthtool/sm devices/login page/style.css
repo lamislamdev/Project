@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+
+
+
+
+    
+    /* small devices css */
+
+    
+    /* small devices header */
+
+    .sm-head{
+        @apply head h-20 text-[.75em]  bg-stone-600 flex justify-around items-center hover:bg-stone-800
+    }
+
+    .sm-logo{
+        @apply w-20
+    }
+
+    .sm-nav{
+        @apply flex flex-row px-[18px] flex-wrap justify-center  items-center space-x-4 font-semibold leading-8 text-stone-300
+    }
+
+    .sm-nav-item {
+
+        @apply hover:text-orange-300
+    }
+
+    .sm-btn-container {
+        @apply font-bold leading-8
+    }
+
+    .sm-log-reg{
+        @apply border-2 border-gray-700 bg-stone-500 w-16 h-7 rounded-3xl shadow-gray-600 shadow-md flex items-center justify-center text-stone-200 hover:bg-stone-700 hover:text-orange-300 
+    }
+
+
+    .sm-divition{
+        @apply h-1 bg-yellow-50
+    }
+
+
+    /* small devices main */
+
+    
+}

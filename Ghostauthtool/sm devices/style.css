@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components { 
+
+    .head{
+        @apply md:h-12  md:bg-stone-600 md:flex md:justify-around md:items-center md:hover:bg-stone-800
+        
+    }
+    .nav{
+        @apply md:flex md:justify-center md:items-center md:space-x-14 md:text-stone-300
+        
+    }
+    .nav-item{
+        @apply md:hover:text-orange-300
+    }
+.log-reg {
+    @apply md:border-2 md:border-gray-700 md:bg-stone-500 md:w-24 md:h-9 md:rounded-3xl md:shadow-gray-600 md:shadow-md md:text-stone-200 md:hover:bg-stone-700 md:hover:text-orange-300
+}
+    
+ .btn-container{
+        @apply md:space-x-5
+    }
+    
+    .divition{
+        @apply md:h-1 md:bg-yellow-50
+    }
+    
+    .box-size{
+        @apply md:h-[91vh] md:bg-stone-400
+    }
+
+    .box-item-box{
+        @apply md:flex md:justify-evenly md:items-center
+    }
+
+    .btn-download{
+        @apply md:w-52 md:h-11 md:bg-stone-500 md:shadow-gray-600 md:shadow-md md:text-stone-200 md:border-2  md:border-gray-800 md:rounded-3xl md:mt-14 md:ml-20 md:font-bold md:hover:bg-stone-700 md:hover:text-green-400
+    }
+
+    .img1{
+        @apply md:w-[80vh] md:pt-32
+    }
+
+    .box-heding{
+        @apply md:text-3xl md:font-extrabold md:mt-24
+    }
+
+    .box-size2{
+        @apply md:h-[95vh] md:bg-stone-300
+    }
+    .box-container2{
+        @apply md:flex md:justify-evenly md:items-center
+    }
+    .box-item1{
+        @apply md:w-[80vh] md:pt-32
+    }
+    .item-heding{
+        @apply md:text-3xl md:font-extrabold md:mt-24
+    }
+    .footer{
+        @apply md:h-[30vh] md:bg-stone-900
+    }
+
+    .so-icon{
+        @apply md:flex md:justify-center md:py-7 md:space-x-10
+    }
+    .copyright{
+        @apply md:font-mono md:text-center md:font-semibold md:text-xl md:text-neutral-400
+    }
+
+
+
+    /* small devices css */
+
+    
+    /* small devices header */
+
+    .sm-head{
+        @apply head h-20 text-[.75em]  bg-stone-600 flex justify-around items-center hover:bg-stone-800
+    }
+
+    .sm-logo{
+        @apply w-20
+    }
+
+    .sm-nav{
+        @apply flex flex-row px-[18px] flex-wrap justify-center  items-center space-x-4 font-semibold leading-8 text-stone-300
+    }
+
+    .sm-nav-item {
+
+        @apply hover:text-orange-300
+    }
+
+    .sm-btn-container {
+        @apply font-bold leading-8
+    }
+
+    .sm-log-reg{
+        @apply border-2 border-gray-700 bg-stone-500 w-16 h-7 rounded-3xl shadow-gray-600 shadow-md flex items-center justify-center text-stone-200 hover:bg-stone-700 hover:text-orange-300 
+    }
+
+
+    .sm-divition {
+        @apply h-1 bg-yellow-50
+    }
+
+
+    /* small devices main */
+
+    .sm-box-size{
+
+        @apply h-[75vh] bg-stone-400
+    }
+     .sm-box-item-box{
+
+        @apply flex flex-wrap justify-center items-center text-center
+     }
+
+     .sm-item {
+        @apply w-[100vw] 
+     }
+    
+     .sm-box-heding {
+
+        @apply text-lg font-bold pt-8 px-8
+     }
+     .sm-box-ditalls {
+        @apply pt-4 px-6
+     }
+
+     .sm-btn-download {
+
+        @apply  mb-5 w-40 h-11 bg-stone-500 shadow-gray-600 shadow-md text-stone-200 border-2  border-gray-800 rounded-3xl mt-8 ml-28 font-bold hover:bg-stone-700 hover:text-green-400
+     }
+
+     .sm-img {
+        @apply  w-[100vw] pt-6
+     }
+
+     .sm-img2{
+       @apply w-[100vw] pt-20  
+     }
+
+    
+         /* small devices footer */
+
+     .sm-footer{
+        @apply h-[30vh] bg-stone-900
+     }
+
+
+     .sm-so-icon {
+        @apply flex justify-center py-7 space-x-5
+     }
+
+     .sm-copyright {
+        @apply px-6 text-center font-semibold text-lg text-neutral-400
+     }
+
+}

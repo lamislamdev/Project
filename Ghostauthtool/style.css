@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components { 
+
+    .head{
+        @apply md:h-12  md:bg-stone-600 md:flex md:justify-around md:items-center md:hover:bg-stone-800
+        
+        
+    }
+    .nav{
+        @apply md:flex md:justify-center md:items-center md:space-x-14 md:text-stone-300
+        
+    }
+    .nav-item{
+        @apply md:hover:text-orange-300
+    }
+.log-reg {
+    @apply md:border-2 md:border-gray-700 md:bg-stone-500 md:w-24 md:h-9 md:rounded-3xl md:shadow-gray-600 md:shadow-md md:text-stone-200 md:hover:bg-stone-700 md:hover:text-orange-300
+}
+    
+ .btn-container{
+        @apply md:space-x-5
+    }
+    
+    .divition{
+        @apply md:h-1 md:bg-yellow-50
+    }
+    
+    .box-size{
+        @apply md:h-[91vh] md:bg-stone-400
+    }
+
+    .box-item-box{
+        @apply md:flex md:justify-evenly md:items-center
+    }
+
+    .btn-download{
+        @apply md:w-52 md:h-11 md:bg-stone-500 md:shadow-gray-600 md:shadow-md md:text-stone-200 md:border-2  md:border-gray-800 md:rounded-3xl md:mt-14 md:ml-20 md:font-bold md:hover:bg-stone-700 md:hover:text-green-400
+    }
+
+    .img1{
+        @apply md:w-[80vh] md:pt-32
+    }
+
+    .box-heding{
+        @apply md:text-3xl md:font-extrabold md:mt-24
+    }
+
+    .box-size2{
+        @apply md:h-[95vh] md:bg-stone-300
+    }
+    .box-container2{
+        @apply md:flex md:justify-evenly md:items-center
+    }
+    .box-item1{
+        @apply md:w-[80vh] md:pt-32
+    }
+    .item-heding{
+        @apply md:text-3xl md:font-extrabold md:mt-24
+    }
+    .footer{
+        @apply md:h-[30vh] md:bg-stone-900
+    }
+
+    .so-icon{
+        @apply md:flex md:justify-center md:py-7 md:space-x-10
+    }
+    .copyright{
+        @apply md:font-mono md:text-center md:font-semibold md:text-xl md:text-neutral-400
+    }
+
+
+}
