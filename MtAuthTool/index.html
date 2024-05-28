@@ -8,8 +8,9 @@
     <meta name="keywords" content="Xiaomi, Authorize, flash, tool, mtauthtool, mtk flash, Qualcomm flash ">
     <title>Mt Auth Tool</title>
     <link rel="shortcut icon" type="x/icon" href="img/logo.png">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="test.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="ex.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,10 +47,14 @@
                 </li>
 
             </ul>
-        </nav>
-        <div class="flex items-center space-x-2 mr-10">
+            <div class="flex justify-center items-center md:mt-7 md:ml-10">
             <a href="https://serverpanel.mtauthtool.com/login.php"><button
-                    class=" w-32 h-10 border-2 mr-[3vw] font-semibold border-green-300 rounded-3xl bg-gradient-to-r from-green-700 to-green-800 hover:text-white ">Register</button></a>
+                class=" w-32 h-10 border-2 mr-[3vw] font-semibold border-green-300 rounded-3xl bg-gradient-to-r from-green-700 to-green-800 hover:text-white ">Register</button></a>
+        <a href="https://serverpanel.mtauthtool.com/login.php"><button
+                class=" w-32 h-10 border-2 mr-[3vw] font-semibold border-green-300 rounded-3xl bg-gradient-to-r from-green-700 to-green-800 hover:text-white ">Login</button></a>
+      </div>
+      </nav>
+        <div class="flex items-center space-x-2 mr-10">
             <ion-icon onclick="Menu(this)" name="menu"
                 class="text-3xl cursor-pointer md:hidden hover:text-orange-400"></ion-icon>
         </div>
