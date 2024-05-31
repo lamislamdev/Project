@@ -1,0 +1,16 @@
+    /* Additional Custom Styles Go Here */
+    .reseller-card {
+        background-color: #6B7280;
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .reseller-card:hover {
+        transform: scale(1.05) rotate(5deg);
+      }
+  
+      /* Optional: Adjust the degree of rotation for larger hover effect */
+      @media (min-width: 768px) {
+        .reseller-card:hover {
+          transform: scale(1.05) rotate(5deg);
+        }
+      }
